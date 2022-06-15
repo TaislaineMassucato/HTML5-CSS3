@@ -1,0 +1,16 @@
+Módulo 01: Primeiros Passos
+ex001- Um HTML simples
+ex002-Parágrafos, quebras e emojis
+ex003-Inserindo imagens simples
+ex004-Utilizando favicons
+ex005-Hierarquia de títulos
+ex006----------------------------------------------------------------------------
+ex007-Formatações de textos em HTML5
+ex008/ex008b-Formatações de códigos, citações e abreviações.
+ex009-Listas em HTML5
+ex010-Links internos, externos e de downloads
+ex011-Imagens dinâmicas e áudio
+ex012-Vídeos em HTML5
+ex013-Usando estilos in-line
+ex014-Usando estilos internos
+ex015-Usando estilos externos

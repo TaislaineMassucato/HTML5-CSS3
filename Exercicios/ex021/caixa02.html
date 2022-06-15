@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgrey;
+            margin:0;
+        }
+        h1{
+            box-shadow: inset 2px 2PX 5PX 7PX rgba(0, 0, 0, 0.466);
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 20px;
+        }
+        nav{
+            background-color: rgba(211, 211, 211, 0.276);
+            padding: 3px; 
+            box-shadow: 2px 2PX 5PX 7PX rgba(0, 0, 0, 0.466); 
+            border-radius: 10px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(148, 35, 35);
+            font-weight: bold;
+            margin-right: 30px;
+          
+        }
+        nav:hover{
+            background-color: rgb(42, 42, 66);
+       
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 20px;
+            border-radius: 10px 40px;
+            box-shadow:4px 4px 9px 0px black ;
+            
+        }
+        article{
+            background-color: lightslategray;
+            border-radius: 5px;
+       
+        }
+        article > aside{
+            background-color: rgb(165, 165, 165);
+
+        }
+       footer{
+           background-color: black;
+           color: white;
+           text-align: center;
+           padding: 1px;
+           margin: 0;
+       }
+
+    </style>
+</head>
+<body>
+   <header>
+       <h1>Meu site</h1>
+       <nav>
+           <a href="#">Links</a>
+           <a href="#">Links</a>
+           <a href="#">Links</a>
+           <a href="#">Links</a>
+           <a href="#">Links</a>
+       </nav>
+   </header>
+   <main>
+        <section id="noticias">
+            <p>Menu Esportes Notícias</p>
+        </section>
+        <section id="articles">
+            <article>
+                <h2>Notícia sobre Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi accusamus totam cupiditate officiis asperiores dolorum mollitia debitis voluptatem ullam quia, est sint, sequi repellendus qui repellat iusto deleniti minus? Excepturi!</p>
+                <aside>
+                    <p>artigo escrito por jose da silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+   </main>
+        <footer>Desenvolvido por Taislaine Massucato</footer>
+     
+</body>
+</html>
