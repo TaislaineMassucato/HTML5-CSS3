@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            border: 2px solid black;
+            position: relative;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightslategray;
+        }
+        td,th{
+            width: 300px;
+            padding: 12px;
+            border: 2px solid black;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color:  grey;
+        }
+        th{
+            background-color: grey;
+            color: white;
+        }
+        td{
+            text-align: center;
+            vertical-align: middle;
+            font-weight: bold
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+        tfoot td{
+            background-color: grey;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Anatomia Tabelas Grandes</h1>
+    <!--Table
+            Thead
+                (tr,td,th)
+            Tbody
+                (tr,td,th)
+            Tfoot
+                (tr,td,th)
+    -->
+    <table>
+       
+            <caption>Estimativa da população Brasileira: 2010-2022</caption>
+        
+        <thead>
+            <tr>
+                <th scope="col">Ano</th>
+                <th scope="col">População(em Milhões)</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>2010</td>
+                <td>194,9</td>
+
+            </tr>
+            <tr>
+                <td>2011</td>
+                <td>196,6</td>
+            </tr>
+            <tr>
+                <td>2012</td>
+                <td>198,3</td>
+            </tr>
+            <tr>
+                <td>2013</td>
+                <td>200.0</td>
+            </tr>
+            <tr>
+                <td>2014</td>
+                <td>201.7</td>
+            </tr>
+            <tr>
+                <td>2015</td>
+                <td>203.5</td>
+            </tr>
+            <tr>
+                <td>2016</td>
+                <td>205.2</td>
+            </tr>
+            <tr>
+                <td>2017</td>
+                <td>206.8</td>
+            </tr>
+            <tr>
+                <td>2018</td>
+                <td>208.5</td>
+            </tr>
+            <tr>
+                <td>2019</td>
+                <td>210.1</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>211.8</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>213.3</td>
+            </tr>
+            <tr>
+                <td>2022</td>
+                <td>214.8</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Dados Obtidos em: </th>
+                <td>
+                    <a href="https://www.ecodebate.com.br/2021/08/25/qual-o-tamanho-da-populacao-brasileira-atual/"> projeções do IBGE</a>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur veritatis, ratione quos hic voluptates odio iste perspiciatis suscipit accusamus, nesciunt a sint, voluptatem nisi quasi optio minima vel incidunt temporibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus voluptas doloribus quam enim doloremque unde fugiat assumenda sunt quas provident? Corporis, accusamus? Aperiam illum consectetur explicabo perferendis quidem maiores nostrum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam numquam ad officia fuga, expedita nostrum blanditiis aperiam nobis dolore necessitatibus sint fugiat adipisci excepturi neque accusamus consectetur? Porro, ab aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nisi amet quia, sed illo repellat voluptas temporibus! Dicta dolores similique nostrum iusto voluptatum earum nihil adipisci, quae vel aspernatur sint?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur veritatis, ratione quos hic voluptates odio iste perspiciatis suscipit accusamus, nesciunt a sint, voluptatem nisi quasi optio minima vel incidunt temporibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus voluptas doloribus quam enim doloremque unde fugiat assumenda sunt quas provident? Corporis, accusamus? Aperiam illum consectetur explicabo perferendis quidem maiores nostrum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam numquam ad officia fuga, expedita nostrum blanditiis aperiam nobis dolore necessitatibus sint fugiat adipisci excepturi neque accusamus consectetur? Porro, ab aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nisi amet quia, sed illo repellat voluptas temporibus! Dicta dolores similique nostrum iusto voluptatum earum nihil adipisci, quae vel aspernatur sint?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur veritatis, ratione quos hic voluptates odio iste perspiciatis suscipit accusamus, nesciunt a sint, voluptatem nisi quasi optio minima vel incidunt temporibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus voluptas doloribus quam enim doloremque unde fugiat assumenda sunt quas provident? Corporis, accusamus? Aperiam illum consectetur explicabo perferendis quidem maiores nostrum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam numquam ad officia fuga, expedita nostrum blanditiis aperiam nobis dolore necessitatibus sint fugiat adipisci excepturi neque accusamus consectetur? Porro, ab aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nisi amet quia, sed illo repellat voluptas temporibus! Dicta dolores similique nostrum iusto voluptatum earum nihil adipisci, quae vel aspernatur sint?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur veritatis, ratione quos hic voluptates odio iste perspiciatis suscipit accusamus, nesciunt a sint, voluptatem nisi quasi optio minima vel incidunt temporibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus voluptas doloribus quam enim doloremque unde fugiat assumenda sunt quas provident? Corporis, accusamus? Aperiam illum consectetur explicabo perferendis quidem maiores nostrum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam numquam ad officia fuga, expedita nostrum blanditiis aperiam nobis dolore necessitatibus sint fugiat adipisci excepturi neque accusamus consectetur? Porro, ab aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nisi amet quia, sed illo repellat voluptas temporibus! Dicta dolores similique nostrum iusto voluptatum earum nihil adipisci, quae vel aspernatur sint?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur veritatis, ratione quos hic voluptates odio iste perspiciatis suscipit accusamus, nesciunt a sint, voluptatem nisi quasi optio minima vel incidunt temporibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus voluptas doloribus quam enim doloremque unde fugiat assumenda sunt quas provident? Corporis, accusamus? Aperiam illum consectetur explicabo perferendis quidem maiores nostrum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam numquam ad officia fuga, expedita nostrum blanditiis aperiam nobis dolore necessitatibus sint fugiat adipisci excepturi neque accusamus consectetur? Porro, ab aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nisi amet quia, sed illo repellat voluptas temporibus! Dicta dolores similique nostrum iusto voluptatum earum nihil adipisci, quae vel aspernatur sint?</p>
+</body>
+</html>
