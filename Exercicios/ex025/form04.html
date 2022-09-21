@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 5</title>
+</head>
+<body>
+    <h1>Formulario 4</h1>
+    <form action="cadastro.php" autocomplete="on">
+
+        <fieldset>
+            <legend>Infos</legend>
+            <p>
+                <label for="idemail">Email: </label>
+                <input type="email" name="email" id="idemail" required placeholder="E-Mail" autocomplete="email">
+            </p>
+            <p>
+                <label for="idtel">Telefone: </label>
+                <input type="tel" name="tel" id="idtel" required autocomplete="tel" pattern="^\([1-9]{2}\) (?:[2-8]|9[1-9])[0-9]{3}\-[0-9]{4}$">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+
+    </form>
+</body>
+</html>
