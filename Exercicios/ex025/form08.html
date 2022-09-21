@@ -25,6 +25,11 @@
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </p>
+        <p>
+            <label for="idnum">Numero: </label>
+            <input type="range" name="num" id="idnum" oninput="ival.innerHTML=Number(idnum.value)">
+            <output id="ival">5</output>
+        </p>
     </form>
    
 </body>
