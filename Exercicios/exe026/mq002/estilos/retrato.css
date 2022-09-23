@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/*cONFIGURAÇÕES Retrato(Pé)*/
+
+
+body
+{
+   background-image: url(../img/cev-portrait.jpg);
+   background-position: center bottom;
+}
